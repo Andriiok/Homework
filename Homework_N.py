@@ -53,7 +53,10 @@ def sort_and_rename_files(folder_path):
     print("Files sorted, renamed, and normalized successfully!")
 
 
-if __name__ == "__main__":
+def main():
     folder_path = input("Enter the folder path: ")
     sort_and_rename_files(folder_path)
+
+if __name__ == "__main__":
+    main()
 
